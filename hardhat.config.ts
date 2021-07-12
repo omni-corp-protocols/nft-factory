@@ -2,7 +2,7 @@ import "@nomiclabs/hardhat-waffle";
 import { HardhatUserConfig } from "hardhat/config";
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.4",
+  solidity: "0.6.12",
 };
 
 export default config;

@@ -1,10 +1,10 @@
 import hre from "hardhat";
 
 async function main() {
-  const Greeter = await hre.ethers.getContractFactory("Greeter");
-  const greeter = await Greeter.deploy("Hello, Hardhat!");
-  await greeter.deployed();
-  console.log("Greeter deployed to:", greeter.address);
+  const OmniIpfsNft = await hre.ethers.getContractFactory("OmniIpfsNft");
+  const omniIpfsNft = await OmniIpfsNft.deploy();
+  await omniIpfsNft.deployed();
+  console.log("OmniIpfsNft deployed to:", omniIpfsNft.address);
 }
 
 main()
