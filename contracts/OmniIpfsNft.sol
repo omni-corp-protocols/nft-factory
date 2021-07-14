@@ -9,7 +9,7 @@ contract OmniIpfsNft is ERC721 {
     Counters.Counter private _tokenIds;
     mapping(string => uint8) public hashes;
 
-    constructor() public ERC721("Omni IPFS Test NFT", "IPFS-NFT-TEST") {
+    constructor() public ERC721("Omni NFT", "omniNFT") {
         _setBaseURI("ipfs://");
     }
 
