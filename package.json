@@ -9,6 +9,7 @@
   "scripts": {
     "hh": "hardhat run",
     "compile": "hardhat compile",
+    "clean": "hardhat clean",
     "test": "hardhat test",
     "lint": "yarn run lint:sol && yarn run lint:ts && yarn run prettier:list-different",
     "lint:sol": "solhint --config ./.solhint.json --max-warnings 0 \"contracts/**/*.sol\"",
